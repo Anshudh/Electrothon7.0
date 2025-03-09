@@ -6,7 +6,7 @@ from pyzbar.pyzbar import decode
 etherscan_api_key = "R9NIAM8NVC9K1G4Y4DP2GGGX6AJ64NU2JA"
 
 # Contract address
-contract_address = "0xa94342867054F2F44eBcCc920fbDE8e177745260"
+contract_address = "0x4263415ce070A8d31870F353d35EE5CC90487889"
 
 def get_transaction_history(contract_address):
     # Etherscan API URL
