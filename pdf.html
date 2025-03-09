@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PDF in HTML</title>
+    <style>
+        .pdf {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+        }
+
+        .pdf,
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h3 {
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(10, 9, 9);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Automated Affidavit Generator</h1>
+    <h4>Here is your Affidavit</h4>
+    <object class="pdf" 
+            data="https://mag.wcoomd.org/uploads/2018/05/blank.pdf"
+            width="800"
+            height="500">
+        Your browser does not support PDFs. Please download the PDF to view it: <a href="https://mag.wcoomd.org/uploads/2018/05/blank.pdf">Download PDF</a>.
+    </object>
+</body>
+
+</html>
