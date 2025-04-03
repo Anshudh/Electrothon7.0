@@ -1,4 +1,4 @@
-# Electrothon7.0
+# Electrothon7.0 project 
 Automated Affidavit Generator
 This is a platform which automates the process of affidavit generation which would be a faster, transparent and tamper proof process. This would not only reduce human efforts but would also generate higher revenue for government.
 1. We take required information from the user then verify it with the help of government API's (if access granted)
